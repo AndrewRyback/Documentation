@@ -58,56 +58,86 @@
     gap: 10px;
 }
 
-.content__container {
-    margin-top: 80px;
-    margin-bottom: 90px;
+.section-container {
+    max-width: 1200px;
+    max-height: 430px;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
-.chapter__title {
-    font-family: "Francois One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 36px;
-    line-height: 48px;
-    text-transform: uppercase;
-    padding-bottom: 40px;
-    padding-top: 70px;
-}
-
-.sup {
-    font-family: "Farro", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 30px;
-    text-transform: none;
+.container-socials {
+    max-width: 1200px;
+   display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
 }
 
 
-.chapter__text {
-    font-family: "PT Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 28px;
-    line-height: 48px;
+
+
+.socials-lists {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    list-style-type: none; 
+    justify-content: center;
+    gap: 30px;
+    object-fit: cover;
 }
 
-.text--line {
-    text-decoration: underline;
+
+
+.facebook {
+    width: 100%;
+    
 }
 
-.text--itl {
-    font-style: italic;
+.instagram {
+    width: 100%;
+    
+
 }
 
-.text--bold {
-    font-weight: bold;
+.shopify {
+    width: 100%;
+   
+    
 }
 
-.text--color {
-    background-color: rgb(211, 201, 201);
+.skype {
+    width: 100%;
+    
+   
 }
 
-.chapter-three > p {
-    padding-bottom: 40px;
+.pinterest {
+    width: 100%;
+    
+   
+}
+
+.wix {
+    width: 100%;
+    
+    
+}
+
+.salesforce {
+    width: 100%;
+   
+    
+}
+
+.soundcloud {
+    width: 100%;
+   
+    
 }

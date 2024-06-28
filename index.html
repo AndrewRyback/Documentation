@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&family=Tourney:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <title>Documentation</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="navigation">
+                <ul class="navigation-list">
+                     <span class="lang">Eng</span>
+                    <li class="navigation-list-item">
+                        <a href="index.html" class="link">Documentation</a>
+                    </li>
+                    <li class="navigation-list-item">
+                        /
+                    </li>
+                    <li class="navigation-list-item">
+                        <a href="Who's using.html" class="link">Who's using</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Logo/company-logo-black.png" alt="logo">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="container content__container">
+            <div class="chapter-one">
+                <h1 class="chapter__title">Introduction <sup class="sup">Chapter 1</sup></h1>
+                <p class="chapter__text">Welcome to the very start of your React Native journey! If you're looking for environment setup instructions, 
+                they've moved to <span class="text--line">their own section</span>. Continue reading for an introduction to the documentation, Native Components,
+                React, and more!</p>
+            </div>
+            <div class="chapter-two">
+                <h1 class="chapter__title">core components <sup class="sup">Chapter 2</sup></h1>
+                <p class="chapter__text">React Native is an open source framework for building Android and iOS applications using React and the app platform’s
+                native capabiles. With React Native, you use JavaScript to access your platform’s APIs as well as to describe the appearance 
+                and behavior of your UI using React components: <span class="text--itl">bundles
+                of reusable, nestable code</span>. You can learn more about React in the next section. But first, let’s cover how components work
+                in React Native.</p>
+            </div>
+            <div class="chapter-three">
+                <h1 class="chapter__title">react fundamentals <sup class="sup">Chapter 3</sup></h1>
+                <p class="chapter__text">React Native runs on <span class="text--line">React</span>, a popular open source library for building user interfaces with JavaScript. To make the most
+                of React Native, it helps to understand React itself. This section can get you started or can serve as a refresher course.</p>
+                <p class="chapter__text">We’re going to cover the core concepts behind React:</p>
+                <p class="chapter__text"> <span class="text--bold">+ components</span>. The rest of this introduction to React uses cats in its examples: friendly, approachable creatures that need 
+                names and a cafe to work in.</p>
+                <p class="chapter__text"><span class="text--bold">+ JSX</span>. React and React Native use JSX, a syntax that lets you write elements inside JavaScript like so: <span class="text--color">&#x3C;Text&#x3E;Hello, I'm a cat!&#x3C;/Text&#x3E;.</span></p>
+                <p class="chapter__text">The React docs have <span class="text--line">a comprehensive guide to JSX</span> you can refer to learn even more. Because JSX is JavaScript, you can use variables inside it.
+                Here you are declaring a <span class="text--color">name</span> for the cat, name, and embedding it with curly braces inside <span class="text--color">&#x3C;Text&#x3E;</span>. </p>
+                <p class="chapter__text"><span class="text--bold">+ props</span>. Props is short for “properties”.</p>
+                <p class="chapter__text"><span class="text--bold">+ state</span>. While you can think of props as arguments you use to configure how components render, state is like a component’s personal data storage.
+                 State is useful for handling data that changes over time or that comes from user interaction. State gives your components memory!</p>
+            </div>
+            <div class="chapter-four">
+                <h1 class="chapter__title">handling text input <sup class="sup">Chapter 4</sup></h1>
+                <p class="chapter__text">TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that takes a function to be called every time the text
+                changed, and an onSubmitEditing prop that takes a function to be called when the text is submitted.</p>
+                <p class="chapter__text">For example, let's say that as the user types, you're translating their words into a different language. In this new language, every single word is
+                 written the same way: 🍕. So the sentence "Hello there Bob" would be translated as "🍕 🍕".</p>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
