@@ -65,79 +65,147 @@
     display: flex;
     justify-content: center;
     margin: auto;
+    padding-top: 40px;
 }
 
 .container-socials {
     max-width: 1200px;
-   display: flex; 
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style-type: none;
+    display: inline-block;
     gap: 30px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.container-socials::before {
+    top: -4px; 
+}
+
+.container-socials::after {
+    bottom: -4px; 
 }
 
 
 
 
+
+
+
+.divider { 
+    padding-right: 20px;
+}
+
+
+.using {
+    padding-left: 120px;
+    padding-top: 70px;
+}
+
+
 .socials-lists {
-    margin: auto;
-    width: 50%;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    list-style-type: none; 
-    justify-content: center;
-    gap: 30px;
-    object-fit: cover;
+   list-style-type: none;
+    display: flex; 
+    flex-basis: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: filter 0.5s ease-in-out;
 }
 
 
 
 .facebook {
-    width: 100%;
+    width: 25%;
     
 }
 
 .instagram {
-    width: 100%;
+    width: 25%;
     
 
 }
 
 .shopify {
-    width: 100%;
+    width: 25%;
    
     
 }
 
 .skype {
-    width: 100%;
+    width: 25%;
     
    
 }
 
 .pinterest {
-    width: 100%;
+    width: 25%;
     
    
 }
 
 .wix {
-    width: 100%;
+    width: 25%;
     
     
 }
 
 .salesforce {
-    width: 100%;
+    width: 25%;
    
     
 }
 
 .soundcloud {
-    width: 100%;
+    width: 25%
    
+    
+}
+
+
+.facebook:hover {
+    filter: invert(100%);
+    
+}
+
+.instagram:hover {
+   filter: invert(100%);
+    
+
+}
+
+.shopify:hover {
+    filter: invert(100%);
+
+    
+}
+
+.skype:hover {
+    
+    filter: invert(100%);
+   
+}
+
+.pinterest:hover {
+    
+    filter: invert(100%);
+   
+}
+
+.wix:hover {
+    
+    filter: invert(100%);
+    
+}
+
+.salesforce:hover {
+   
+   filter: invert(100%);
+    
+}
+
+.soundcloud:hover {
+    
+   filter: invert(100%);
     
 }
