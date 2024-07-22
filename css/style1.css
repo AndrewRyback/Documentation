@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navigation-list-item {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 27.5px;
+}
+
+.lang {
+    font-family: "Farro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    font-optical-sizing: auto;
+    font-variation-settings: 87.5;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding-right: 50px ;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    -moz-text-stroke: 1px black; 
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.content__container {
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.chapter__title {
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-top: 70px;
+}
+
+.sup {
+    font-family: "Farro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: none;
+}
+
+
+.chapter__text {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.text--line {
+    text-decoration: underline;
+}
+
+.text--itl {
+    font-style: italic;
+}
+
+.text--bold {
+    font-weight: bold;
+}
+
+.text--color {
+    background-color: rgb(211, 201, 201);
+}
+
+.chapter-three > p {
+    padding-bottom: 40px;
+}
